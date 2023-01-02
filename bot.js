@@ -36,7 +36,7 @@ bot.on('text', async (message) => {
                 reply_markup: {
                     inline_keyboard: [
                         [
-                            {text: "Tik Tok Downloader", url: "t.me/TikTokSaverDownloader_bot"}
+                            {text: "Tik Tok Downloader", url: "t.me/downloader_tiktok_uz_bot"}
                         ]
                     ]
                 }
