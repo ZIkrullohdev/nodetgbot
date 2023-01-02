@@ -8,10 +8,10 @@ const bot = new TelegramBot(TOKEN, { polling: true })
 
 const startMessage =
 `
-Добро пожаловать!
-С помощью этого бота вы можете скачать ТикТок видео без водяного знака.
+TT Saver ga xush kelibsiz.
+TikTok videolarini hech qanday belgilarsiz yublab beradigan bot.
 
-Для начала загрузки просто отправьте ссылку на Тик Ток видео.
+Yuklab olishni boshlash uchun TikTok videosining linkini yuboring.
 `;
 
 bot.on('message', async (message) => {
